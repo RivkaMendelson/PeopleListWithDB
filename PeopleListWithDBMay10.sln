@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PeopleListWithDBMay10.Web", "PeopleListWithDBMay10.Web\PeopleListWithDBMay10.Web.csproj", "{D7199C4A-B54C-41F5-BAAD-E4A408BEF611}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeopleListWithDBMay10.Data", "PeopleListWithDBMay10.Data\PeopleListWithDBMay10.Data.csproj", "{2C93CF9C-9066-4217-971E-ABDC1895F3E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7199C4A-B54C-41F5-BAAD-E4A408BEF611}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7199C4A-B54C-41F5-BAAD-E4A408BEF611}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7199C4A-B54C-41F5-BAAD-E4A408BEF611}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7199C4A-B54C-41F5-BAAD-E4A408BEF611}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C93CF9C-9066-4217-971E-ABDC1895F3E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C93CF9C-9066-4217-971E-ABDC1895F3E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C93CF9C-9066-4217-971E-ABDC1895F3E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C93CF9C-9066-4217-971E-ABDC1895F3E1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D10AB3A7-79FC-49A0-A0A5-64C39B0E1236}
+	EndGlobalSection
+EndGlobal

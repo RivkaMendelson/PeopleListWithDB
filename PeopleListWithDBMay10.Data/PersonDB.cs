@@ -1,4 +1,5 @@
-﻿using ReactWithBackend.Data;
+﻿using Microsoft.EntityFrameworkCore;
+using ReactWithBackend.Data;
 
 namespace PeopleListWithDBMay10.Data
 {
@@ -28,12 +29,14 @@ namespace PeopleListWithDBMay10.Data
         {
             using var context = new PersonDbContext(_connectionString);
             context.People.Update(person);
+            context.SaveChanges();
         }
 
         public void Delete(Person person)
         {
             using var context = new PersonDbContext(_connectionString);
             context.People.Remove(person);
+            context.SaveChanges();
         }
 
 
